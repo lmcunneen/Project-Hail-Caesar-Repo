@@ -5,6 +5,15 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/Unreal/Project-Hail-Caesar-Repo/ProjectHailCaesar/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"D:/Unreal/Project-Hail-Caesar-Repo/ProjectHailCaesar/Content/ThirdPerson/Input/Actions/IA_Taunt.uasset",
+				"D:/Unreal/Project-Hail-Caesar-Repo/ProjectHailCaesar/Content/ThirdPerson/Input/Actions/IA_BasicAttack.uasset",
+				"D:/Unreal/Project-Hail-Caesar-Repo/ProjectHailCaesar/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"D:/Unreal/Project-Hail-Caesar-Repo/ProjectHailCaesar/Content/ProjectCaesar/Characters/Mixamo/Animations/AM_Taunt1.uasset",
+				"D:/Unreal/Project-Hail-Caesar-Repo/ProjectHailCaesar/Content/ProjectCaesar/Blueprints/AI/BTTask_GetTargetLocation.uasset",
+				"D:/Unreal/Project-Hail-Caesar-Repo/ProjectHailCaesar/Content/ProjectCaesar/Blueprints/AI/BT_Enemy.uasset",
+				"D:/Unreal/Project-Hail-Caesar-Repo/ProjectHailCaesar/Content/ProjectCaesar/Blueprints/AI/BB_Enemy.uasset",
+				"D:/Unreal/Project-Hail-Caesar-Repo/ProjectHailCaesar/Content/ProjectCaesar/Blueprints/AI/BTTask_CheckPlayerLife.uasset",
 				"C:/Users/s221018/Documents/GitHub/Project-Hail-Caesar-Repo/ProjectHailCaesar/Content/ProjectCaesar/Characters/Mixamo/Animations/ABP_YBot.uasset",
 				"C:/Users/s221018/Documents/GitHub/Project-Hail-Caesar-Repo/ProjectHailCaesar/Content/ProjectCaesar/Characters/Mixamo/Animations/BS_YBot.uasset"
 			]
