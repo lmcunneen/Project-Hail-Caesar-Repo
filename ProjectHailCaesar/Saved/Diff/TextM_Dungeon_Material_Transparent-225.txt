@@ -1,0 +1,39 @@
+Begin Object Class=/Script/Engine.Material Name="M_Dungeon_Material_Transparent"
+   Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="M_Dungeon_Material_TransparentEditorOnlyData"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="M_Dungeon_Material_TransparentEditorOnlyData"
+      BaseColor=(Expression="/Script/Engine.MaterialExpressionTextureSample'M_Dungeon_Material_Transparent:MaterialExpressionTextureSample_1'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Opacity=(Expression="/Script/Engine.MaterialExpressionConstant'M_Dungeon_Material_Transparent:MaterialExpressionConstant_6'")
+      ExpressionCollection=(Expressions=("/Script/Engine.MaterialExpressionTextureSample'M_Dungeon_Material_Transparent:MaterialExpressionTextureSample_1'","/Script/Engine.MaterialExpressionConstant'M_Dungeon_Material_Transparent:MaterialExpressionConstant_6'"))
+   End Object
+   Begin Object Name="MaterialExpressionConstant_6"
+      MaterialExpressionEditorX=-192
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=DDFE24DB47A0E0AFA0B09593A2150A48
+      Material="/Script/Engine.Material'M_Dungeon_Material_Transparent'"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      MaterialExpressionEditorX=-240
+      MaterialExpressionEditorY=-80
+      MaterialExpressionGuid=A5A8B0124D1772D69022E0AB72C4D17F
+      Material="/Script/Engine.Material'M_Dungeon_Material_Transparent'"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BlendMode=BLEND_Translucent
+   bUsedWithSkeletalMesh=True
+   bUsedWithMeshParticles=True
+   EditorX=160
+   EditorY=16
+   bCanMaskedBeAssumedOpaque=True
+   StateId=2674E688A799304EA3A9BFB78BE3C3DB
+   EditorOnlyData="/Script/Engine.MaterialEditorOnlyData'M_Dungeon_Material_TransparentEditorOnlyData'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_0'"
+   LightingGuid=2F469C614AFDB2D434A20A8A2A877739
+End Object

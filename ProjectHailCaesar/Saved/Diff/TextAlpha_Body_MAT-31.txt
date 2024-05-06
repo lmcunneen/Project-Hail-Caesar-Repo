@@ -1,0 +1,22 @@
+Begin Object Class=/Script/Engine.Material Name="Alpha_Body_MAT"
+   Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="Alpha_Body_MATEditorOnlyData"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Name="Alpha_Body_MATEditorOnlyData"
+      BaseColor=(Expression="/Script/Engine.MaterialExpressionVectorParameter'Alpha_Body_MAT:MaterialExpressionVectorParameter_0'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      ExpressionCollection=(Expressions=("/Script/Engine.MaterialExpressionVectorParameter'Alpha_Body_MAT:MaterialExpressionVectorParameter_0'"))
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.096570,G=0.421620,B=0.522000,A=0.000000)
+      ExpressionGUID=C04BFAB347DC346AF8F683B18FEC086E
+      MaterialExpressionEditorX=-260
+      MaterialExpressionGuid=9764416D46083C83E8AB858EB45FF69B
+      Material="/Script/Engine.Material'Alpha_Body_MAT'"
+   End Object
+   bUsedWithSkeletalMesh=True
+   bCanMaskedBeAssumedOpaque=True
+   StateId=3E8AD84D483149840B3A7C9457B319E7
+   EditorOnlyData="/Script/Engine.MaterialEditorOnlyData'Alpha_Body_MATEditorOnlyData'"
+   LightingGuid=22B2536949A5C452B4BA01BB9B91D116
+End Object

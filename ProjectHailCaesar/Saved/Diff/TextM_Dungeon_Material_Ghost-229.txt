@@ -1,0 +1,89 @@
+Begin Object Class=/Script/Engine.Material Name="M_Dungeon_Material_Ghost"
+   Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="M_Dungeon_Material_GhostEditorOnlyData"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="M_Dungeon_Material_GhostEditorOnlyData"
+      BaseColor=(Expression="/Script/Engine.MaterialExpressionTextureSample'M_Dungeon_Material_Ghost:MaterialExpressionTextureSample_1'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Metallic=(Expression="/Script/Engine.MaterialExpressionConstant'M_Dungeon_Material_Ghost:MaterialExpressionConstant_2'")
+      Specular=(Expression="/Script/Engine.MaterialExpressionConstant'M_Dungeon_Material_Ghost:MaterialExpressionConstant_5'")
+      Roughness=(Expression="/Script/Engine.MaterialExpressionConstant'M_Dungeon_Material_Ghost:MaterialExpressionConstant_6'")
+      EmissiveColor=(Expression="/Script/Engine.MaterialExpressionMultiply'M_Dungeon_Material_Ghost:MaterialExpressionMultiply_0'")
+      Opacity=(Expression="/Script/Engine.MaterialExpressionTextureSample'M_Dungeon_Material_Ghost:MaterialExpressionTextureSample_0'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      ExpressionCollection=(Expressions=("/Script/Engine.MaterialExpressionTextureSample'M_Dungeon_Material_Ghost:MaterialExpressionTextureSample_1'","/Script/Engine.MaterialExpressionConstant'M_Dungeon_Material_Ghost:MaterialExpressionConstant_2'","/Script/Engine.MaterialExpressionConstant'M_Dungeon_Material_Ghost:MaterialExpressionConstant_5'","/Script/Engine.MaterialExpressionConstant'M_Dungeon_Material_Ghost:MaterialExpressionConstant_6'","/Script/Engine.MaterialExpressionMultiply'M_Dungeon_Material_Ghost:MaterialExpressionMultiply_0'","/Script/Engine.MaterialExpressionTextureSample'M_Dungeon_Material_Ghost:MaterialExpressionTextureSample_0'","/Script/Engine.MaterialExpressionConstant3Vector'M_Dungeon_Material_Ghost:MaterialExpressionConstant3Vector_0'"))
+   End Object
+   Begin Object Name="MaterialExpressionConstant_2"
+      R=0.800000
+      MaterialExpressionEditorX=-176
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=DDFE24DB47A0E0AFA0B09593A2150A48
+      Material="/Script/Engine.Material'M_Dungeon_Material_Ghost'"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_5"
+      R=0.900000
+      MaterialExpressionEditorX=-176
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=DDFE24DB47A0E0AFA0B09593A2150A48
+      Material="/Script/Engine.Material'M_Dungeon_Material_Ghost'"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_6"
+      R=0.200000
+      MaterialExpressionEditorX=-176
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=DDFE24DB47A0E0AFA0B09593A2150A48
+      Material="/Script/Engine.Material'M_Dungeon_Material_Ghost'"
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_0"
+      Constant=(R=0.235669,G=0.777743,B=1.000000,A=1.000000)
+      MaterialExpressionEditorX=-322
+      MaterialExpressionEditorY=505
+      MaterialExpressionGuid=6629B3DF42E6E54043F6138DC830B807
+      Material="/Script/Engine.Material'M_Dungeon_Material_Ghost'"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression="/Script/Engine.MaterialExpressionConstant3Vector'M_Dungeon_Material_Ghost:MaterialExpressionConstant3Vector_0'")
+      MaterialExpressionEditorX=-48
+      MaterialExpressionEditorY=432
+      MaterialExpressionGuid=C6163C714061715B4D58C1B441C6F928
+      Material="/Script/Engine.Material'M_Dungeon_Material_Ghost'"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      MaterialExpressionEditorX=-416
+      MaterialExpressionEditorY=192
+      MaterialExpressionGuid=CBA633AF4EF49A1CED21049F56095A60
+      Material="/Script/Engine.Material'M_Dungeon_Material_Ghost'"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      MaterialExpressionEditorX=-240
+      MaterialExpressionEditorY=-80
+      MaterialExpressionGuid=A5A8B0124D1772D69022E0AB72C4D17F
+      Material="/Script/Engine.Material'M_Dungeon_Material_Ghost'"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BlendMode=BLEND_Translucent
+   TranslucencyLightingMode=TLM_Surface
+   bUsedWithSkeletalMesh=True
+   bUsedWithMeshParticles=True
+   EditorX=160
+   EditorY=16
+   bCanMaskedBeAssumedOpaque=True
+   StateId=9AAB698DAE26456E1940D29E482D79CD
+   EditorOnlyData="/Script/Engine.MaterialEditorOnlyData'M_Dungeon_Material_GhostEditorOnlyData'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_0'"
+   LightingGuid=E6C1D59B4C91641ACF1933BFCAA641A6
+End Object

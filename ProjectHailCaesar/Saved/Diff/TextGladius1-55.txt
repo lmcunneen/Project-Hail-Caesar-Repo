@@ -1,0 +1,23 @@
+Begin Object Class=/Script/Engine.Material Name="Gladius1"
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="Gladius1EditorOnlyData"
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.800000,G=0.800000,B=0.800000,A=0.000000)
+      ExpressionGUID=E6668C7243C8559203F74289610BDC87
+      MaterialExpressionEditorX=-260
+      MaterialExpressionGuid=B70957F24F148C442034EA9ED5AA7047
+      Material="/Script/Engine.Material'Gladius1'"
+   End Object
+   Begin Object Name="Gladius1EditorOnlyData"
+      BaseColor=(Expression="/Script/Engine.MaterialExpressionVectorParameter'Gladius1:MaterialExpressionVectorParameter_0'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      ExpressionCollection=(Expressions=("/Script/Engine.MaterialExpressionVectorParameter'Gladius1:MaterialExpressionVectorParameter_0'"))
+   End Object
+   bUsedWithSkeletalMesh=True
+   bCanMaskedBeAssumedOpaque=True
+   StateId=9169261045F55EC7320A3CA9C75E31DB
+   EditorOnlyData="/Script/Engine.MaterialEditorOnlyData'Gladius1EditorOnlyData'"
+   ParameterOverviewExpansion=(("-12Global", True))
+   LightingGuid=469E5E1849BEA80D4BFD33AF90DCD3C0
+End Object

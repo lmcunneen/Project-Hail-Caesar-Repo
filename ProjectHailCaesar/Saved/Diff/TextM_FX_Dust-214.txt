@@ -1,0 +1,79 @@
+Begin Object Class=/Script/Engine.Material Name="M_FX_Dust"
+   Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="M_FX_DustEditorOnlyData"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_4"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_9"
+   End Object
+   Begin Object Name="M_FX_DustEditorOnlyData"
+      BaseColor=(Expression="/Script/Engine.MaterialExpressionConstant3Vector'M_FX_Dust:MaterialExpressionConstant3Vector_4'")
+      Metallic=(Expression="/Script/Engine.MaterialExpressionConstant'M_FX_Dust:MaterialExpressionConstant_11'")
+      Specular=(Expression="/Script/Engine.MaterialExpressionConstant'M_FX_Dust:MaterialExpressionConstant_12'")
+      Roughness=(Expression="/Script/Engine.MaterialExpressionConstant'M_FX_Dust:MaterialExpressionConstant_1'")
+      EmissiveColor=(Expression="/Script/Engine.MaterialExpressionConstant3Vector'M_FX_Dust:MaterialExpressionConstant3Vector_3'")
+      Opacity=(Expression="/Script/Engine.MaterialExpressionConstant'M_FX_Dust:MaterialExpressionConstant_0'")
+      ExpressionCollection=(Expressions=("/Script/Engine.MaterialExpressionConstant'M_FX_Dust:MaterialExpressionConstant_11'","/Script/Engine.MaterialExpressionConstant'M_FX_Dust:MaterialExpressionConstant_12'","/Script/Engine.MaterialExpressionConstant'M_FX_Dust:MaterialExpressionConstant_1'","/Script/Engine.MaterialExpressionConstant3Vector'M_FX_Dust:MaterialExpressionConstant3Vector_3'","/Script/Engine.MaterialExpressionConstant'M_FX_Dust:MaterialExpressionConstant_0'","/Script/Engine.MaterialExpressionConstant3Vector'M_FX_Dust:MaterialExpressionConstant3Vector_4'"))
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=0.100000
+      MaterialExpressionEditorX=70
+      MaterialExpressionEditorY=417
+      MaterialExpressionGuid=B40E3F354B003D9C4A71C2968F14DC30
+      Material="/Script/Engine.Material'M_FX_Dust'"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_1"
+      R=0.700000
+      MaterialExpressionEditorX=-336
+      MaterialExpressionEditorY=400
+      MaterialExpressionGuid=28E8A7E5407DB12353940E8CAB261E36
+      Material="/Script/Engine.Material'M_FX_Dust'"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_11"
+      MaterialExpressionEditorX=-384
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=9BB574EB4F49EE656A42DEAD3D06CB84
+      Material="/Script/Engine.Material'M_FX_Dust'"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_12"
+      R=0.100000
+      MaterialExpressionEditorX=-384
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=9BB574EB4F49EE656A42DEAD3D06CB84
+      Material="/Script/Engine.Material'M_FX_Dust'"
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_3"
+      Constant=(R=0.595000,G=0.490174,B=0.207838,A=0.000000)
+      MaterialExpressionEditorX=-160
+      MaterialExpressionEditorY=464
+      MaterialExpressionGuid=3EE7537F427260F3792E99A4D6F6BBB8
+      Material="/Script/Engine.Material'M_FX_Dust'"
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_4"
+      Constant=(R=0.595000,G=0.490174,B=0.207838,A=0.000000)
+      MaterialExpressionEditorX=-192
+      MaterialExpressionEditorY=-80
+      MaterialExpressionGuid=3EE7537F427260F3792E99A4D6F6BBB8
+      Material="/Script/Engine.Material'M_FX_Dust'"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_9"
+   End Object
+   BlendMode=BLEND_Additive
+   bUsedWithMeshParticles=True
+   EditorX=224
+   EditorY=-16
+   bCanMaskedBeAssumedOpaque=True
+   StateId=AD52D72FAC8EBEB585060492CFAE8F3C
+   EditorOnlyData="/Script/Engine.MaterialEditorOnlyData'M_FX_DustEditorOnlyData'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_9'"
+   LightingGuid=41822D1D4A52DAAD1DBF60A1002A2830
+End Object

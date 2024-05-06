@@ -1,0 +1,12 @@
+Begin Object Class=/Script/Engine.PhysicsAsset Name="Gladius_PhysicsAsset"
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_0"
+   End Object
+   Begin Object Name="SkeletalBodySetup_0"
+      AggGeom=(SphylElems=((Center=(X=0.033007,Y=0.000004,Z=-0.000843),Rotation=(Pitch=-0.000000,Yaw=89.999743,Roll=-89.944806),Radius=0.268887,Length=1.817197)))
+      BoneName="Gladius"
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   PreviewSkeletalMesh="/Game/ProjectCaesar/Art/GladiusSword/source/Gladius.Gladius"
+   BoundsBodies(0)=0
+   SkeletalBodySetups(0)="/Script/Engine.SkeletalBodySetup'SkeletalBodySetup_0'"
+End Object

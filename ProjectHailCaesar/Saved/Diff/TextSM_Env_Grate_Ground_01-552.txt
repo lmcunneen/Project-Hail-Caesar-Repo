@@ -1,0 +1,53 @@
+Begin Object Class=/Script/Engine.StaticMesh Name="SM_Env_Grate_Ground_01"
+   Begin Object Class=/Script/Engine.StaticMeshDescriptionBulkData Name="HiResMeshDescription" Archetype="/Script/Engine.StaticMeshDescriptionBulkData'/Script/Engine.Default__StaticMesh:HiResMeshDescription'"
+      Begin Object Class=/Script/StaticMeshDescription.StaticMeshDescription Name="MeshDescription" Archetype="/Script/StaticMeshDescription.StaticMeshDescription'/Script/Engine.Default__StaticMesh:HiResMeshDescription.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.AssetImportData Name="AssetImportData"
+   End Object
+   Begin Object Class=/Script/Engine.BodySetup Name="BodySetup_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.FbxStaticMeshImportData Name="FbxStaticMeshImportData_0"
+   End Object
+   Begin Object Class=/Script/NavigationSystem.NavCollision Name="NavCollision_2"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshDescriptionBulkData Name="StaticMeshDescriptionBulkData_0"
+      Begin Object Class=/Script/StaticMeshDescription.StaticMeshDescription Name="MeshDescription" Archetype="/Script/StaticMeshDescription.StaticMeshDescription'/Script/Engine.Default__StaticMeshDescriptionBulkData:MeshDescription'"
+      End Object
+   End Object
+   Begin Object Name="HiResMeshDescription"
+      Begin Object Name="MeshDescription"
+      End Object
+   End Object
+   Begin Object Name="AssetImportData"
+   End Object
+   Begin Object Name="BodySetup_0"
+      AggGeom=(ConvexElems=((VertexData=((X=-1.997654,Y=53.148666,Z=28.960976),(X=-55.642513,Y=-10.754312,Z=19.837585),(X=-51.646454,Y=-1.626847,Z=11.274666),(X=-1.997654,Y=-54.707718,Z=19.835072),(X=-1.997654,Y=47.431938,Z=7.851510),(X=-53.358299,Y=51.432579,Z=31.816120),(X=-47.650398,Y=-46.706444,Z=33.527699),(X=-46.510918,Y=-47.274895,Z=7.854023)),IndexData=(6,1,7,7,4,3,3,4,0,6,5,1,5,2,1,7,2,4,7,1,2,6,7,3,5,4,2,5,0,4,6,0,5,6,3,0),ElemBox=(Min=(X=-55.642513,Y=-54.707718,Z=7.851510),Max=(X=-1.997654,Y=53.148666,Z=33.527699),IsValid=True)),(VertexData=((X=53.356987,Y=53.137943,Z=29.534016),(X=-1.997654,Y=-54.707726,Z=19.835072),(X=-0.852308,Y=-54.707726,Z=19.835072),(X=25.400383,Y=48.579575,Z=7.851510),(X=47.647179,Y=-45.569534,Z=7.854023),(X=-1.997654,Y=52.001034,Z=31.816120),(X=47.647179,Y=-46.706448,Z=33.527699),(X=-1.997654,Y=47.431938,Z=7.851510)),IndexData=(3,0,4,1,7,4,2,1,4,5,1,6,6,2,4,6,4,0,6,1,2,5,0,3,5,6,0,3,4,7,5,7,1,5,3,7),ElemBox=(Min=(X=-1.997654,Y=-54.707726,Z=7.851510),Max=(X=53.356987,Y=53.137943,Z=33.527699),IsValid=True))))
+      DefaultInstance=(ObjectType=ECC_WorldStatic,CollisionProfileName="BlockAll")
+   End Object
+   Begin Object Name="FbxStaticMeshImportData_0"
+      ImportUniformScale=100.000000
+   End Object
+   Begin Object Name="NavCollision_2"
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Name="StaticMeshDescriptionBulkData_0"
+      Begin Object Name="MeshDescription"
+      End Object
+   End Object
+   SourceModels(0)=(StaticMeshDescriptionBulkData="/Script/Engine.StaticMeshDescriptionBulkData'StaticMeshDescriptionBulkData_0'",BuildSettings=(bRecomputeNormals=False,bUseBackwardsCompatibleF16TruncUVs=True,bGenerateLightmapUVs=False),ScreenSize=(Default=1.000000))
+   SectionInfoMap=(Map=((0, ())))
+   OriginalSectionInfoMap=(Map=((0, ())))
+   ImportVersion=1
+   StaticMaterials(0)=(MaterialSlotName="lambert3",ImportedMaterialSlotName="lambert3",UVChannelData=(bInitialized=True,LocalUVDensities[1]=301.920258))
+   LightmapUVDensity=301.920258
+   LightMapResolution=256
+   LightMapCoordinateIndex=1
+   AssetImportData="/Script/UnrealEd.FbxStaticMeshImportData'FbxStaticMeshImportData_0'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_0'"
+   bCustomizedCollision=True
+   ExtendedBounds=(Origin=(X=-0.000237,Y=-0.000191,Z=20.731979),BoxExtent=(X=55.356934,Y=54.422188,Z=12.597470),SphereRadius=75.695801)
+End Object

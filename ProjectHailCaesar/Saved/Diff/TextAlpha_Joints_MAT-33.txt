@@ -1,0 +1,22 @@
+Begin Object Class=/Script/Engine.Material Name="Alpha_Joints_MAT"
+   Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="Alpha_Joints_MATEditorOnlyData"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Name="Alpha_Joints_MATEditorOnlyData"
+      BaseColor=(Expression="/Script/Engine.MaterialExpressionVectorParameter'Alpha_Joints_MAT:MaterialExpressionVectorParameter_0'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      ExpressionCollection=(Expressions=("/Script/Engine.MaterialExpressionVectorParameter'Alpha_Joints_MAT:MaterialExpressionVectorParameter_0'"))
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.153552,G=0.212894,B=0.222217,A=0.000000)
+      ExpressionGUID=078D578C4B1C7FEB2809D2914F150384
+      MaterialExpressionEditorX=-260
+      MaterialExpressionGuid=AB51C47C4C5D9035FA2C879D5E743DF5
+      Material="/Script/Engine.Material'Alpha_Joints_MAT'"
+   End Object
+   bUsedWithSkeletalMesh=True
+   bCanMaskedBeAssumedOpaque=True
+   StateId=D2CE4BB64EAA9592E8DB76A694A31878
+   EditorOnlyData="/Script/Engine.MaterialEditorOnlyData'Alpha_Joints_MATEditorOnlyData'"
+   LightingGuid=C1BEC57045168E7EF17665A529A97A4E
+End Object

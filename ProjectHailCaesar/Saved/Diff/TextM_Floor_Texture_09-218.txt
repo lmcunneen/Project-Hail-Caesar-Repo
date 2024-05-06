@@ -1,0 +1,70 @@
+Begin Object Class=/Script/Engine.Material Name="M_Floor_Texture_09"
+   Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="M_Floor_Texture_09EditorOnlyData"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_3"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="M_Floor_Texture_09EditorOnlyData"
+      BaseColor=(Expression="/Script/Engine.MaterialExpressionTextureSample'M_Floor_Texture_09:MaterialExpressionTextureSample_1'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Metallic=(Expression="/Script/Engine.MaterialExpressionConstant'M_Floor_Texture_09:MaterialExpressionConstant_2'")
+      Specular=(Expression="/Script/Engine.MaterialExpressionConstant'M_Floor_Texture_09:MaterialExpressionConstant_5'")
+      Roughness=(Expression="/Script/Engine.MaterialExpressionConstant'M_Floor_Texture_09:MaterialExpressionConstant_6'")
+      Normal=(Expression="/Script/Engine.MaterialExpressionTextureSample'M_Floor_Texture_09:MaterialExpressionTextureSample_3'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      ExpressionCollection=(Expressions=("/Script/Engine.MaterialExpressionTextureSample'M_Floor_Texture_09:MaterialExpressionTextureSample_1'","/Script/Engine.MaterialExpressionConstant'M_Floor_Texture_09:MaterialExpressionConstant_2'","/Script/Engine.MaterialExpressionConstant'M_Floor_Texture_09:MaterialExpressionConstant_5'","/Script/Engine.MaterialExpressionConstant'M_Floor_Texture_09:MaterialExpressionConstant_6'","/Script/Engine.MaterialExpressionTextureSample'M_Floor_Texture_09:MaterialExpressionTextureSample_3'"))
+   End Object
+   Begin Object Name="MaterialExpressionConstant_2"
+      MaterialExpressionEditorX=-208
+      MaterialExpressionEditorY=160
+      MaterialExpressionGuid=DDFE24DB47A0E0AFA0B09593A2150A48
+      Material="/Script/Engine.Material'M_Floor_Texture_09'"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_5"
+      R=0.200000
+      MaterialExpressionEditorX=-192
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=DDFE24DB47A0E0AFA0B09593A2150A48
+      Material="/Script/Engine.Material'M_Floor_Texture_09'"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_6"
+      R=0.800000
+      MaterialExpressionEditorX=-192
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=DDFE24DB47A0E0AFA0B09593A2150A48
+      Material="/Script/Engine.Material'M_Floor_Texture_09'"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      MaterialExpressionEditorX=-240
+      MaterialExpressionEditorY=-80
+      MaterialExpressionGuid=A5A8B0124D1772D69022E0AB72C4D17F
+      Material="/Script/Engine.Material'M_Floor_Texture_09'"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_3"
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-256
+      MaterialExpressionEditorY=432
+      MaterialExpressionGuid=A5A8B0124D1772D69022E0AB72C4D17F
+      Material="/Script/Engine.Material'M_Floor_Texture_09'"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   bUsedWithStaticLighting=True
+   EditorX=256
+   EditorY=32
+   bCanMaskedBeAssumedOpaque=True
+   StateId=F26060F7AB163ABE3518EBB01635C912
+   EditorOnlyData="/Script/Engine.MaterialEditorOnlyData'M_Floor_Texture_09EditorOnlyData'"
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Dungeons_Texture_FloorTile_09_01",TextureReference="/Game/PolygonDungeons/Textures/Misc/T_Dungeons_Texture_FloorTile_09_01.T_Dungeons_Texture_FloorTile_09_01")
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Dungeons_Texture_FloorTile_09_normals",TextureReference="/Game/PolygonDungeons/Textures/Misc/T_Dungeons_Texture_FloorTile_09_normals.T_Dungeons_Texture_FloorTile_09_normals")
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_0'"
+   LightingGuid=40A324FD4B666B4D87252880964318BA
+End Object

@@ -1,0 +1,53 @@
+Begin Object Class=/Script/Engine.StaticMesh Name="SM_Env_Tiles_Pentagram_01"
+   Begin Object Class=/Script/Engine.StaticMeshDescriptionBulkData Name="HiResMeshDescription" Archetype="/Script/Engine.StaticMeshDescriptionBulkData'/Script/Engine.Default__StaticMesh:HiResMeshDescription'"
+      Begin Object Class=/Script/StaticMeshDescription.StaticMeshDescription Name="MeshDescription" Archetype="/Script/StaticMeshDescription.StaticMeshDescription'/Script/Engine.Default__StaticMesh:HiResMeshDescription.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.AssetImportData Name="AssetImportData"
+   End Object
+   Begin Object Class=/Script/Engine.BodySetup Name="BodySetup_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.FbxStaticMeshImportData Name="FbxStaticMeshImportData_0"
+   End Object
+   Begin Object Class=/Script/NavigationSystem.NavCollision Name="NavCollision_2"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshDescriptionBulkData Name="StaticMeshDescriptionBulkData_0"
+      Begin Object Class=/Script/StaticMeshDescription.StaticMeshDescription Name="MeshDescription" Archetype="/Script/StaticMeshDescription.StaticMeshDescription'/Script/Engine.Default__StaticMeshDescriptionBulkData:MeshDescription'"
+      End Object
+   End Object
+   Begin Object Name="HiResMeshDescription"
+      Begin Object Name="MeshDescription"
+      End Object
+   End Object
+   Begin Object Name="AssetImportData"
+   End Object
+   Begin Object Name="BodySetup_0"
+      AggGeom=(ConvexElems=((VertexData=((X=322.306030,Y=26.067774,Z=9.791601),(X=-326.002014,Y=-6.453052,Z=5.441222),(X=-326.002014,Y=-6.453052,Z=9.791601),(X=4.700876,Y=-326.358307,Z=-1.087861),(X=17.734762,Y=-319.713593,Z=22.845081),(X=-21.366896,Y=317.605164,Z=22.845081),(X=4.700876,Y=326.358307,Z=-1.087861),(X=-291.181091,Y=-134.875183,Z=22.845081),(X=287.548950,Y=141.392120,Z=22.845081),(X=302.755188,Y=-123.949715,Z=-1.087861),(X=-247.670929,Y=208.797760,Z=-1.087861),(X=237.457962,Y=-215.378601,Z=22.845081),(X=-230.228531,Y=-232.757111,Z=-1.087861),(X=-286.836487,Y=143.564438,Z=22.845081),(X=224.424072,Y=232.757111,Z=-1.087861),(X=148.265289,Y=282.784241,Z=22.845081),(X=-114.904198,Y=-300.226654,Z=22.845081),(X=128.714462,Y=-300.226654,Z=-1.087861),(X=-130.174286,Y=300.226654,Z=14.141981),(X=307.099792,Y=-76.094902,Z=22.845081),(X=-304.215027,Y=-119.605087,Z=-1.087861),(X=298.410522,Y=130.466660,Z=-1.087861)),IndexData=(15,13,19,4,3,17,12,20,3,11,17,9,9,0,19,8,19,0,14,9,6,9,3,6,17,3,9,11,4,17,13,10,1,5,13,15,20,10,3,10,6,3,20,1,10,20,2,1,16,7,12,16,12,3,7,4,13,13,4,19,11,19,4,11,9,19,7,13,2,13,1,2,5,15,6,8,15,19,18,5,6,18,6,10,18,13,5,18,10,13,7,20,12,7,2,20,16,4,7,16,3,4,21,8,0,21,14,8,14,15,8,14,6,15,21,9,14,21,0,9),ElemBox=(Min=(X=-326.002014,Y=-326.358307,Z=-1.087861),Max=(X=322.306030,Y=326.358307,Z=22.845081),IsValid=True))))
+      DefaultInstance=(ObjectType=ECC_WorldStatic,CollisionProfileName="BlockAll")
+   End Object
+   Begin Object Name="FbxStaticMeshImportData_0"
+      ImportUniformScale=100.000000
+   End Object
+   Begin Object Name="NavCollision_2"
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Name="StaticMeshDescriptionBulkData_0"
+      Begin Object Name="MeshDescription"
+      End Object
+   End Object
+   SourceModels(0)=(StaticMeshDescriptionBulkData="/Script/Engine.StaticMeshDescriptionBulkData'StaticMeshDescriptionBulkData_0'",BuildSettings=(bRecomputeNormals=False,bUseBackwardsCompatibleF16TruncUVs=True,bGenerateLightmapUVs=False),CacheMeshDescriptionTrianglesCount=2294,CacheMeshDescriptionVerticesCount=6610,ScreenSize=(Default=1.000000))
+   SectionInfoMap=(Map=((0, ())))
+   OriginalSectionInfoMap=(Map=((0, ())))
+   ImportVersion=1
+   StaticMaterials(0)=(MaterialSlotName="lambert2",ImportedMaterialSlotName="lambert361",UVChannelData=(bInitialized=True,LocalUVDensities[1]=862.759033))
+   LightmapUVDensity=862.759033
+   LightMapResolution=256
+   LightMapCoordinateIndex=1
+   AssetImportData="/Script/UnrealEd.FbxStaticMeshImportData'FbxStaticMeshImportData_0'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_0'"
+   bCustomizedCollision=True
+   ExtendedBounds=(Origin=(X=0.000366,Y=0.000000,Z=11.292500),BoxExtent=(X=324.914551,Y=325.270447,Z=11.292500),SphereRadius=325.656616)
+End Object

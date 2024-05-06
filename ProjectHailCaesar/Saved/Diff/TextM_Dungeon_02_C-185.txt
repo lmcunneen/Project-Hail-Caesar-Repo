@@ -1,0 +1,74 @@
+Begin Object Class=/Script/Engine.Material Name="M_Dungeon_02_C"
+   Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="M_Dungeon_02_CEditorOnlyData"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="M_Dungeon_02_CEditorOnlyData"
+      BaseColor=(Expression="/Script/Engine.MaterialExpressionTextureSample'M_Dungeon_02_C:MaterialExpressionTextureSample_1'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Metallic=(Expression="/Script/Engine.MaterialExpressionConstant'M_Dungeon_02_C:MaterialExpressionConstant_2'")
+      Specular=(Expression="/Script/Engine.MaterialExpressionConstant'M_Dungeon_02_C:MaterialExpressionConstant_5'")
+      Roughness=(Expression="/Script/Engine.MaterialExpressionConstant'M_Dungeon_02_C:MaterialExpressionConstant_6'")
+      EmissiveColor=(Expression="/Script/Engine.MaterialExpressionMultiply'M_Dungeon_02_C:MaterialExpressionMultiply_0'")
+      ExpressionCollection=(Expressions=("/Script/Engine.MaterialExpressionTextureSample'M_Dungeon_02_C:MaterialExpressionTextureSample_1'","/Script/Engine.MaterialExpressionConstant'M_Dungeon_02_C:MaterialExpressionConstant_2'","/Script/Engine.MaterialExpressionConstant'M_Dungeon_02_C:MaterialExpressionConstant_5'","/Script/Engine.MaterialExpressionConstant'M_Dungeon_02_C:MaterialExpressionConstant_6'","/Script/Engine.MaterialExpressionMultiply'M_Dungeon_02_C:MaterialExpressionMultiply_0'","/Script/Engine.MaterialExpressionTextureSample'M_Dungeon_02_C:MaterialExpressionTextureSample_2'"))
+   End Object
+   Begin Object Name="MaterialExpressionConstant_2"
+      MaterialExpressionEditorX=-208
+      MaterialExpressionEditorY=160
+      MaterialExpressionGuid=DDFE24DB47A0E0AFA0B09593A2150A48
+      Material="/Script/Engine.Material'M_Dungeon_02_C'"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_5"
+      R=0.200000
+      MaterialExpressionEditorX=-192
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=DDFE24DB47A0E0AFA0B09593A2150A48
+      Material="/Script/Engine.Material'M_Dungeon_02_C'"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_6"
+      R=0.800000
+      MaterialExpressionEditorX=-192
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=DDFE24DB47A0E0AFA0B09593A2150A48
+      Material="/Script/Engine.Material'M_Dungeon_02_C'"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression="/Script/Engine.MaterialExpressionTextureSample'M_Dungeon_02_C:MaterialExpressionTextureSample_2'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      ConstB=5.000000
+      MaterialExpressionEditorY=464
+      MaterialExpressionGuid=C6163C714061715B4D58C1B441C6F928
+      Material="/Script/Engine.Material'M_Dungeon_02_C'"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      MaterialExpressionEditorX=-240
+      MaterialExpressionEditorY=-80
+      MaterialExpressionGuid=A5A8B0124D1772D69022E0AB72C4D17F
+      Material="/Script/Engine.Material'M_Dungeon_02_C'"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      MaterialExpressionEditorX=-272
+      MaterialExpressionEditorY=432
+      MaterialExpressionGuid=A5A8B0124D1772D69022E0AB72C4D17F
+      Material="/Script/Engine.Material'M_Dungeon_02_C'"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   EditorX=160
+   EditorY=16
+   bCanMaskedBeAssumedOpaque=True
+   StateId=BADA03FBA6F56883084DFF89A3B25539
+   EditorOnlyData="/Script/Engine.MaterialEditorOnlyData'M_Dungeon_02_CEditorOnlyData'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_0'"
+   LightingGuid=5543978745863FA61D71B2A7966A0913
+End Object

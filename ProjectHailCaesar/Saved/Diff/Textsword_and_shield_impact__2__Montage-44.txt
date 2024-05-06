@@ -1,0 +1,15 @@
+Begin Object Class=/Script/Engine.AnimMontage Name="sword_and_shield_impact__2__Montage"
+   Begin Object Class=/Script/Engine.AnimDataModel Name="AnimDataModel"
+   End Object
+   Begin Object Name="AnimDataModel"
+      NumberOfFrames=58000
+      NumberOfKeys=58001
+   End Object
+   CompositeSections(0)=(SectionName="Default",LinkedMontage="/Script/Engine.AnimMontage'sword_and_shield_impact__2__Montage'",SegmentIndex=0,SegmentLength=0.966667,LinkedSequence="/Script/Engine.AnimSequence'/Game/ProjectCaesar/Characters/Mixamo/Animations/sword_and_shield_impact__2_.sword_and_shield_impact__2_'")
+   SlotAnimTracks(0)=(AnimTrack=(AnimSegments=((AnimReference="/Script/Engine.AnimSequence'/Game/ProjectCaesar/Characters/Mixamo/Animations/sword_and_shield_impact__2_.sword_and_shield_impact__2_'",CachedPlayLength=0.966667,AnimEndTime=0.966667))))
+   CommonTargetFrameRate=(Numerator=30)
+   SequenceLength=0.966667
+   AnimNotifyTracks(0)=(TrackName="1")
+   DataModelInterface=AnimDataModel'sword_and_shield_impact__2__Montage:AnimDataModel'
+   Skeleton="/Script/Engine.Skeleton'/Game/ProjectCaesar/Characters/Mixamo/Y_Bot_Skeleton.Y_Bot_Skeleton'"
+End Object

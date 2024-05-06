@@ -1,0 +1,20 @@
+Begin Object Class=/Script/Engine.AnimMontage Name="sword_and_shield_slash_Montage"
+   Begin Object Class=/Script/Engine.AnimDataModel Name="AnimDataModel"
+   End Object
+   Begin Object Class=/Game/ProjectCaesar/Blueprints/BP_SwordEvent.BP_SwordEvent_C Name="BP_SwordEvent_C_0"
+   End Object
+   Begin Object Name="AnimDataModel"
+      NumberOfFrames=90000
+      NumberOfKeys=90001
+   End Object
+   Begin Object Name="BP_SwordEvent_C_0"
+   End Object
+   CompositeSections(0)=(SectionName="Default",LinkedMontage="/Script/Engine.AnimMontage'sword_and_shield_slash_Montage'",SegmentIndex=0,SegmentLength=1.500000,LinkedSequence="/Script/Engine.AnimSequence'/Game/ProjectCaesar/Characters/Mixamo/Animations/sword_and_shield_slash.sword_and_shield_slash'")
+   SlotAnimTracks(0)=(AnimTrack=(AnimSegments=((AnimReference="/Script/Engine.AnimSequence'/Game/ProjectCaesar/Characters/Mixamo/Animations/sword_and_shield_slash.sword_and_shield_slash'",CachedPlayLength=1.500000,AnimEndTime=1.500000))))
+   CommonTargetFrameRate=(Numerator=1920)
+   Notifies(0)=(NotifyName="BP_SwordEvent_C",NotifyStateClass="/Game/ProjectCaesar/Blueprints/BP_SwordEvent.BP_SwordEvent_C'BP_SwordEvent_C_0'",Duration=0.203402,EndLink=(LinkedMontage="/Script/Engine.AnimMontage'sword_and_shield_slash_Montage'",SegmentIndex=0,SegmentLength=1.500000,LinkValue=0.754185,LinkedSequence="/Script/Engine.AnimSequence'/Game/ProjectCaesar/Characters/Mixamo/Animations/sword_and_shield_slash.sword_and_shield_slash'"),Guid=A0ABB086454F960EF208A982C0B386F9,LinkedMontage="/Script/Engine.AnimMontage'sword_and_shield_slash_Montage'",SegmentIndex=0,SegmentLength=1.500000,LinkValue=0.550783,LinkedSequence="/Script/Engine.AnimSequence'/Game/ProjectCaesar/Characters/Mixamo/Animations/sword_and_shield_slash.sword_and_shield_slash'")
+   SequenceLength=1.500000
+   AnimNotifyTracks(0)=(TrackName="1",TrackColor=(R=0.500000,G=0.500000,B=0.500000,A=1.000000))
+   DataModelInterface=AnimDataModel'sword_and_shield_slash_Montage:AnimDataModel'
+   Skeleton="/Script/Engine.Skeleton'/Game/ProjectCaesar/Characters/Mixamo/Y_Bot_Skeleton.Y_Bot_Skeleton'"
+End Object

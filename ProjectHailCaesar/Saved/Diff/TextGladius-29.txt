@@ -1,0 +1,26 @@
+Begin Object Class=/Script/Engine.SkeletalMesh Name="Gladius"
+   Begin Object Class=/Script/Engine.AnimCurveMetaData Name="AnimCurveMetaData_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.FbxSkeletalMeshImportData Name="FbxSkeletalMeshImportData_0"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshEditorData Name="SkeletalMeshEditorData_0"
+   End Object
+   Begin Object Name="AnimCurveMetaData_0"
+   End Object
+   Begin Object Name="FbxSkeletalMeshImportData_0"
+      bUseT0AsRefPose=True
+      ThresholdUV=0.000977
+      ImportMaterialOriginalNameData(0)="Gladius"
+      ImportMeshLodData(0)=(SectionOriginalMaterialName=("Gladius"))
+   End Object
+   Begin Object Name="SkeletalMeshEditorData_0"
+   End Object
+   MeshEditorDataObject="/Script/Engine.SkeletalMeshEditorData'SkeletalMeshEditorData_0'"
+   Skeleton="/Script/Engine.Skeleton'/Game/ProjectCaesar/Art/GladiusSword/source/Gladius_Skeleton.Gladius_Skeleton'"
+   LODInfo(0)=(LODHysteresis=0.020000,BuildSettings=(bComputeWeightedNormals=True,ThresholdUV=0.000977),ReductionSettings=(NumOfTrianglesPercentage=1.000000,NumOfVertPercentage=1.000000,MaxDeviationPercentage=0.000000))
+   PhysicsAsset="/Script/Engine.PhysicsAsset'/Game/ProjectCaesar/Art/GladiusSword/source/Gladius_PhysicsAsset.Gladius_PhysicsAsset'"
+   AssetImportData="/Script/UnrealEd.FbxSkeletalMeshImportData'FbxSkeletalMeshImportData_0'"
+   RetargetBasePose(0)=(Rotation=(X=0.000000,Y=0.000000,Z=0.000000,W=1.000000),Scale3D=(X=100.000000,Y=100.000000,Z=100.000000))
+   SamplingInfo=(BuiltData=(WholeMeshBuiltData=(())))
+   AssetUserData(0)="/Script/Engine.AnimCurveMetaData'AnimCurveMetaData_0'"
+End Object

@@ -1,0 +1,53 @@
+Begin Object Class=/Script/Engine.StaticMesh Name="SM_Env_Sewer_Canal_01"
+   Begin Object Class=/Script/Engine.StaticMeshDescriptionBulkData Name="HiResMeshDescription" Archetype="/Script/Engine.StaticMeshDescriptionBulkData'/Script/Engine.Default__StaticMesh:HiResMeshDescription'"
+      Begin Object Class=/Script/StaticMeshDescription.StaticMeshDescription Name="MeshDescription" Archetype="/Script/StaticMeshDescription.StaticMeshDescription'/Script/Engine.Default__StaticMesh:HiResMeshDescription.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.AssetImportData Name="AssetImportData"
+   End Object
+   Begin Object Class=/Script/Engine.BodySetup Name="BodySetup_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.FbxStaticMeshImportData Name="FbxStaticMeshImportData_0"
+   End Object
+   Begin Object Class=/Script/NavigationSystem.NavCollision Name="NavCollision_2"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshDescriptionBulkData Name="StaticMeshDescriptionBulkData_0"
+      Begin Object Class=/Script/StaticMeshDescription.StaticMeshDescription Name="MeshDescription" Archetype="/Script/StaticMeshDescription.StaticMeshDescription'/Script/Engine.Default__StaticMeshDescriptionBulkData:MeshDescription'"
+      End Object
+   End Object
+   Begin Object Name="HiResMeshDescription"
+      Begin Object Name="MeshDescription"
+      End Object
+   End Object
+   Begin Object Name="AssetImportData"
+   End Object
+   Begin Object Name="BodySetup_0"
+      AggGeom=(ConvexElems=((VertexData=((X=9.170013,Y=500.658478,Z=10.540329),(X=-13.152328,Y=-1.115051,Z=-22.913858),(X=100.599548,Y=-1.115051,Z=-109.885315),(X=241.078506,Y=-1.115051,Z=-80.886971),(X=100.599548,Y=500.658478,Z=-109.885315),(X=241.078506,Y=500.658478,Z=-109.885315),(X=42.616203,Y=-1.115051,Z=10.540329),(X=241.078506,Y=500.658478,Z=-80.886971),(X=-13.152328,Y=500.658478,Z=-22.913858),(X=241.078506,Y=-1.115051,Z=-109.885315),(X=42.616203,Y=500.658478,Z=10.540329),(X=-4.218414,Y=-1.115051,Z=10.528538),(X=-6.458115,Y=500.658478,Z=8.300617),(X=-13.152328,Y=-1.115051,Z=-16.230095),(X=-13.152328,Y=500.658478,Z=-16.230095),(X=-8.672928,Y=-1.115051,Z=1.616852)),IndexData=(6,15,3,2,1,4,3,1,9,8,1,13,2,9,1,2,4,9,5,3,9,5,9,4,15,1,3,14,12,8,11,6,0,10,7,0,11,15,6,14,8,13,13,1,15,12,15,11,7,5,0,5,4,0,7,3,5,7,6,3,10,6,7,10,0,6,8,4,1,8,0,4,12,0,8,12,11,0,14,15,12,14,13,15),ElemBox=(Min=(X=-13.152328,Y=-1.115051,Z=-109.885315),Max=(X=241.078506,Y=500.658478,Z=10.540329),IsValid=True),Transform=(Scale3D=(X=0.468088,Y=1.000000,Z=1.000000))),(VertexData=((X=426.178223,Y=500.658478,Z=-80.897881),(X=241.097687,Y=-1.115051,Z=-109.885315),(X=399.399078,Y=-1.115051,Z=-109.885315),(X=390.484772,Y=-1.115051,Z=-78.663849),(X=241.097687,Y=500.658478,Z=-109.885315),(X=241.097687,Y=500.658478,Z=-80.897881),(X=399.399078,Y=500.658478,Z=-109.885315),(X=241.097687,Y=-1.115051,Z=-80.897881),(X=426.178223,Y=-1.115051,Z=-78.663849),(X=388.256195,Y=496.188873,Z=-78.663849),(X=417.245819,Y=-1.115051,Z=-92.043602),(X=426.178223,Y=500.658478,Z=-78.663849),(X=374.866638,Y=195.154236,Z=-78.663849),(X=417.245819,Y=500.658478,Z=-92.043602),(X=426.178223,Y=-1.115051,Z=-80.897881),(X=374.866638,Y=404.734070,Z=-78.663849)),IndexData=(11,8,0,3,1,8,4,1,5,4,5,0,2,8,1,13,6,0,10,8,2,14,10,0,14,8,10,14,0,8,15,9,5,15,5,7,7,1,3,7,5,1,4,2,1,6,4,0,11,9,8,9,3,8,15,3,9,12,15,7,12,3,15,12,7,3,11,5,9,11,0,5,6,2,4,6,10,2,13,10,6,13,0,10),ElemBox=(Min=(X=241.097687,Y=-1.115051,Z=-109.885315),Max=(X=426.178223,Y=500.658478,Z=-78.663849),IsValid=True),Transform=(Translation=(X=-339.628082,Y=0.000061,Z=0.000000),Scale3D=(X=1.811328,Y=1.000000,Z=1.000000))),(VertexData=((X=508.691620,Y=500.658478,Z=1.616417),(X=377.119873,Y=197.364471,Z=-78.663849),(X=377.119873,Y=197.364471,Z=-76.428505),(X=513.152344,Y=-1.115051,Z=-22.911238),(X=457.399811,Y=-1.115051,Z=10.540329),(X=428.411682,Y=500.658478,Z=-78.663849),(X=457.399811,Y=500.658478,Z=10.540329),(X=428.411682,Y=-1.115051,Z=-78.663849),(X=513.152344,Y=500.658478,Z=-22.911238),(X=390.502075,Y=493.880402,Z=-76.428505),(X=504.230865,Y=-1.115051,Z=10.531597),(X=392.739105,Y=-1.115051,Z=-76.428505),(X=504.230865,Y=500.658478,Z=10.531597),(X=379.356903,Y=415.834381,Z=-76.428505),(X=392.739105,Y=500.658478,Z=-78.663849),(X=513.152344,Y=-1.115051,Z=-16.222672)),IndexData=(6,0,14,14,1,13,14,7,1,15,10,3,9,14,13,6,14,9,11,7,4,7,3,4,5,14,0,8,5,0,2,1,11,6,9,13,11,1,7,2,13,1,12,10,0,2,6,13,2,4,6,2,11,4,10,4,3,10,6,4,15,0,10,8,0,15,12,6,10,12,0,6,5,7,14,5,3,7,8,3,5,8,15,3),ElemBox=(Min=(X=377.119873,Y=-1.115051,Z=-78.663849),Max=(X=513.152344,Y=500.658478,Z=10.540329),IsValid=True))))
+      DefaultInstance=(ObjectType=ECC_WorldStatic,CollisionProfileName="BlockAll")
+   End Object
+   Begin Object Name="FbxStaticMeshImportData_0"
+      ImportUniformScale=100.000000
+   End Object
+   Begin Object Name="NavCollision_2"
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Name="StaticMeshDescriptionBulkData_0"
+      Begin Object Name="MeshDescription"
+      End Object
+   End Object
+   SourceModels(0)=(StaticMeshDescriptionBulkData="/Script/Engine.StaticMeshDescriptionBulkData'StaticMeshDescriptionBulkData_0'",BuildSettings=(bRecomputeNormals=False,bUseBackwardsCompatibleF16TruncUVs=True,bGenerateLightmapUVs=False),ScreenSize=(Default=1.000000))
+   SectionInfoMap=(Map=((0, ())))
+   OriginalSectionInfoMap=(Map=((0, ())))
+   ImportVersion=1
+   StaticMaterials(0)=(MaterialSlotName="lambert2",ImportedMaterialSlotName="lambert2",UVChannelData=(bInitialized=True,LocalUVDensities[1]=1081.027588))
+   LightmapUVDensity=1081.027588
+   LightMapResolution=256
+   LightMapCoordinateIndex=1
+   AssetImportData="/Script/UnrealEd.FbxStaticMeshImportData'FbxStaticMeshImportData_0'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_0'"
+   bCustomizedCollision=True
+   ExtendedBounds=(Origin=(X=250.000015,Y=250.000000,Z=-49.361187),BoxExtent=(X=262.037292,Y=250.000000,Z=59.409077),SphereRadius=363.298523)
+End Object

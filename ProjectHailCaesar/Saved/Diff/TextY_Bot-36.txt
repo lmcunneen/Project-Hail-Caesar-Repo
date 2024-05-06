@@ -1,0 +1,90 @@
+Begin Object Class=/Script/Engine.SkeletalMesh Name="Y_Bot"
+   Begin Object Class=/Script/Engine.SkeletalMeshEditorData Name="SkeletalMeshEditorData_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.FbxSkeletalMeshImportData Name="FbxSkeletalMeshImportData_0"
+   End Object
+   Begin Object Class=/Script/Engine.AssetImportData Name="AssetImportData"
+   End Object
+   Begin Object Name="SkeletalMeshEditorData_0"
+   End Object
+   Begin Object Name="FbxSkeletalMeshImportData_0"
+      bUseT0AsRefPose=True
+      ThresholdUV=0.000977
+      ImportMaterialOriginalNameData(0)="Alpha_Body_MAT"
+      ImportMaterialOriginalNameData(1)="Alpha_Joints_MAT"
+      ImportMeshLodData(0)=(SectionOriginalMaterialName=("Alpha_Body_MAT","Alpha_Joints_MAT"))
+   End Object
+   Begin Object Name="AssetImportData"
+   End Object
+   MeshEditorDataObject="/Script/Engine.SkeletalMeshEditorData'SkeletalMeshEditorData_0'"
+   Skeleton="/Script/Engine.Skeleton'/Game/ProjectCaesar/Characters/Mixamo/Y_Bot_Skeleton.Y_Bot_Skeleton'"
+   LODInfo(0)=(LODHysteresis=0.020000,BuildSettings=(bComputeWeightedNormals=True,ThresholdUV=0.000977),ReductionSettings=(NumOfTrianglesPercentage=1.000000,NumOfVertPercentage=1.000000,MaxDeviationPercentage=0.000000))
+   PhysicsAsset="/Script/Engine.PhysicsAsset'/Game/ProjectCaesar/Characters/Mixamo/Y_Bot_PhysicsAsset.Y_Bot_PhysicsAsset'"
+   AssetImportData="/Script/UnrealEd.FbxSkeletalMeshImportData'FbxSkeletalMeshImportData_0'"
+   RetargetBasePose(0)=(Rotation=(X=-0.707107,Y=-0.000032,Z=-0.000030,W=0.707107),Translation=(X=-0.000033,Y=0.000052,Z=99.791870),Scale3D=(X=1.000000,Y=1.000000,Z=1.000000))
+   RetargetBasePose(1)=(Rotation=(X=-0.060730,Y=-0.000000,Z=0.000006,W=-0.998154),Translation=(X=0.000860,Y=-9.923462,Z=-1.227335))
+   RetargetBasePose(2)=(Rotation=(X=0.000196,Y=0.000000,Z=-0.000009,W=-1.000000),Translation=(X=0.000000,Y=-11.731978,Z=-0.000000))
+   RetargetBasePose(3)=(Rotation=(X=0.057712,Y=-0.000002,Z=0.000003,W=-0.998333),Translation=(X=0.000000,Y=-13.458837,Z=0.000000))
+   RetargetBasePose(4)=(Rotation=(X=0.002828,Y=0.000000,Z=-0.000000,W=-0.999996),Translation=(X=0.000025,Y=-15.027761,Z=0.877907))
+   RetargetBasePose(5)=(Rotation=(X=0.000000,Y=-0.000000,Z=-0.000000,W=-1.000000),Translation=(X=0.000003,Y=-10.321838,Z=3.142429))
+   RetargetBasePose(6)=(Rotation=(X=0.000000,Y=0.000000,Z=0.000000,W=-1.000000),Translation=(X=0.000155,Y=-18.474670,Z=6.636399))
+   RetargetBasePose(7)=(Rotation=(X=-0.453869,Y=0.544821,Z=0.551167,W=0.439759),Translation=(X=6.105824,Y=-9.106292,Z=0.757062))
+   RetargetBasePose(8)=(Rotation=(X=-0.010471,Y=0.001065,Z=0.101149,W=-0.994816),Translation=(X=0.000000,Y=-12.922286,Z=0.000000))
+   RetargetBasePose(9)=(Rotation=(X=-0.000000,Y=0.000000,Z=-0.000000,W=-1.000000),Translation=(X=0.000000,Y=-27.404682,Z=0.000000))
+   RetargetBasePose(10)=(Rotation=(X=0.000000,Y=-0.000000,Z=0.000000,W=-1.000000),Translation=(X=-0.000013,Y=-27.614464,Z=0.000000))
+   RetargetBasePose(11)=(Rotation=(X=0.251895,Y=0.059464,Z=0.221924,W=-0.940087),Translation=(X=-3.002975,Y=-3.788809,Z=2.167149))
+   RetargetBasePose(12)=(Rotation=(X=0.000000,Y=0.000000,Z=-0.000000,W=-1.000000),Translation=(X=-0.000000,Y=-4.744970,Z=0.000000))
+   RetargetBasePose(13)=(Rotation=(X=-0.000000,Y=-0.000000,Z=-0.000000,W=-1.000000),Translation=(X=-0.000000,Y=-4.382129,Z=0.000000))
+   RetargetBasePose(14)=(Rotation=(X=0.009147,Y=-0.125637,Z=0.072072,W=-0.989413),Translation=(X=-0.000005,Y=-3.459078,Z=0.000000))
+   RetargetBasePose(15)=(Rotation=(X=-0.000000,Y=-0.000000,Z=-0.000000,W=-1.000000),Translation=(X=-2.822044,Y=-12.266617,Z=0.231825))
+   RetargetBasePose(16)=(Rotation=(X=-0.000000,Y=0.000000,Z=-0.000000,W=-1.000000),Translation=(X=-0.000000,Y=-3.891968,Z=0.000000))
+   RetargetBasePose(17)=(Rotation=(X=-0.000000,Y=-0.000000,Z=0.000000,W=-1.000000),Translation=(X=0.000000,Y=-3.415161,Z=-0.000000))
+   RetargetBasePose(18)=(Rotation=(X=0.000001,Y=-0.004002,Z=0.000023,W=-0.999992),Translation=(X=0.000001,Y=-3.077988,Z=0.000000))
+   RetargetBasePose(19)=(Rotation=(X=-0.000000,Y=-0.000000,Z=0.000000,W=-1.000000),Translation=(X=-0.000018,Y=-12.775528,Z=-0.000001))
+   RetargetBasePose(20)=(Rotation=(X=0.000000,Y=0.000000,Z=-0.000000,W=-1.000000),Translation=(X=-0.000000,Y=-3.613968,Z=0.000000))
+   RetargetBasePose(21)=(Rotation=(X=0.000000,Y=-0.000000,Z=-0.000000,W=-1.000000),Translation=(X=0.000029,Y=-3.459763,Z=-0.000000))
+   RetargetBasePose(22)=(Rotation=(X=-0.000001,Y=-0.004579,Z=-0.000654,W=-0.999989),Translation=(X=-0.000030,Y=-3.680191,Z=-0.000000))
+   RetargetBasePose(23)=(Rotation=(X=-0.000000,Y=-0.000000,Z=0.000000,W=-1.000000),Translation=(X=2.216630,Y=-12.147010,Z=-0.009996))
+   RetargetBasePose(24)=(Rotation=(X=0.000000,Y=0.000000,Z=-0.000000,W=-1.000000),Translation=(X=0.000000,Y=-3.601189,Z=0.000000))
+   RetargetBasePose(25)=(Rotation=(X=0.000000,Y=-0.000000,Z=-0.000000,W=-1.000000),Translation=(X=-0.000000,Y=-3.307312,Z=0.000000))
+   RetargetBasePose(26)=(Rotation=(X=0.000008,Y=-0.007396,Z=0.000771,W=-0.999972),Translation=(X=-0.000024,Y=-3.660118,Z=0.000017))
+   RetargetBasePose(27)=(Rotation=(X=0.000000,Y=-0.000000,Z=-0.000000,W=-1.000000),Translation=(X=4.725832,Y=-10.908195,Z=0.226132))
+   RetargetBasePose(28)=(Rotation=(X=0.000000,Y=-0.000000,Z=0.000000,W=-1.000000),Translation=(X=-0.000000,Y=-4.136657,Z=0.000000))
+   RetargetBasePose(29)=(Rotation=(X=0.000000,Y=-0.000000,Z=0.000000,W=-1.000000),Translation=(X=0.000000,Y=-2.594835,Z=0.000000))
+   RetargetBasePose(30)=(Rotation=(X=-0.000001,Y=-0.004100,Z=-0.000575,W=-0.999991),Translation=(X=-0.000000,Y=-2.923866,Z=0.000000))
+   RetargetBasePose(31)=(Rotation=(X=0.453803,Y=0.544876,Z=0.551112,W=-0.439828),Translation=(X=-6.105696,Y=-9.106383,Z=0.757076))
+   RetargetBasePose(32)=(Rotation=(X=-0.010435,Y=-0.001061,Z=-0.101150,W=-0.994816),Translation=(X=0.000000,Y=-12.922287,Z=-0.000000))
+   RetargetBasePose(33)=(Rotation=(X=-0.000000,Y=-0.000000,Z=0.000000,W=-1.000000),Translation=(X=0.000000,Y=-27.404682,Z=-0.000000))
+   RetargetBasePose(34)=(Rotation=(X=0.000000,Y=0.000000,Z=-0.000000,W=-1.000000),Translation=(X=0.000013,Y=-27.614464,Z=0.000015))
+   RetargetBasePose(35)=(Rotation=(X=0.251895,Y=-0.059465,Z=-0.221924,W=-0.940086),Translation=(X=3.002975,Y=-3.788809,Z=2.167149))
+   RetargetBasePose(36)=(Rotation=(X=-0.000000,Y=0.000000,Z=-0.000000,W=-1.000000),Translation=(X=-0.000000,Y=-4.744970,Z=0.000000))
+   RetargetBasePose(37)=(Rotation=(X=0.000000,Y=-0.000000,Z=-0.000000,W=-1.000000),Translation=(X=-0.000000,Y=-4.382135,Z=-0.000000))
+   RetargetBasePose(38)=(Rotation=(X=0.009232,Y=0.127130,Z=-0.072328,W=-0.989202),Translation=(X=0.000011,Y=-3.459071,Z=-0.000023))
+   RetargetBasePose(39)=(Rotation=(X=-0.000000,Y=0.000000,Z=-0.000000,W=-1.000000),Translation=(X=2.822042,Y=-12.266617,Z=0.231825))
+   RetargetBasePose(40)=(Rotation=(X=-0.000000,Y=0.000000,Z=-0.000000,W=-1.000000),Translation=(X=0.000000,Y=-3.891968,Z=-0.000000))
+   RetargetBasePose(41)=(Rotation=(X=-0.000000,Y=0.000000,Z=-0.000000,W=-1.000000),Translation=(X=-0.000000,Y=-3.415161,Z=0.000000))
+   RetargetBasePose(42)=(Rotation=(X=-0.000073,Y=0.006709,Z=0.001375,W=-0.999977),Translation=(X=-0.000001,Y=-3.077988,Z=0.000000))
+   RetargetBasePose(43)=(Rotation=(X=-0.000000,Y=0.000000,Z=-0.000000,W=-1.000000),Translation=(X=0.000017,Y=-12.775528,Z=-0.000001))
+   RetargetBasePose(44)=(Rotation=(X=0.000000,Y=-0.000000,Z=0.000000,W=-1.000000),Translation=(X=0.000000,Y=-3.613968,Z=0.000000))
+   RetargetBasePose(45)=(Rotation=(X=0.000000,Y=0.000000,Z=0.000000,W=-1.000000),Translation=(X=-0.000029,Y=-3.459763,Z=0.000000))
+   RetargetBasePose(46)=(Rotation=(X=-0.000052,Y=0.006695,Z=-0.001708,W=-0.999976),Translation=(X=0.000029,Y=-3.680191,Z=-0.000000))
+   RetargetBasePose(47)=(Rotation=(X=-0.000000,Y=0.000000,Z=0.000000,W=-1.000000),Translation=(X=-2.216632,Y=-12.147003,Z=-0.009996))
+   RetargetBasePose(48)=(Rotation=(X=-0.000000,Y=-0.000000,Z=0.000000,W=-1.000000),Translation=(X=-0.000000,Y=-3.601196,Z=-0.000000))
+   RetargetBasePose(49)=(Rotation=(X=0.000000,Y=0.000000,Z=0.000000,W=-1.000000),Translation=(X=-0.000000,Y=-3.307312,Z=-0.000000))
+   RetargetBasePose(50)=(Rotation=(X=-0.000062,Y=0.007613,Z=-0.000300,W=-0.999971),Translation=(X=0.000024,Y=-3.660118,Z=-0.000000))
+   RetargetBasePose(51)=(Rotation=(X=-0.000000,Y=0.000000,Z=0.000000,W=-1.000000),Translation=(X=-4.725833,Y=-10.908195,Z=0.226132))
+   RetargetBasePose(52)=(Rotation=(X=0.000000,Y=0.000000,Z=-0.000000,W=-1.000000),Translation=(X=-0.000000,Y=-4.136650,Z=-0.000000))
+   RetargetBasePose(53)=(Rotation=(X=-0.000000,Y=-0.000000,Z=0.000000,W=-1.000000),Translation=(X=-0.000000,Y=-2.594841,Z=-0.000000))
+   RetargetBasePose(54)=(Rotation=(X=-0.000082,Y=0.008499,Z=0.002206,W=-0.999961),Translation=(X=0.000000,Y=-2.923866,Z=0.000000))
+   RetargetBasePose(55)=(Rotation=(X=0.000020,Y=0.006340,Z=0.999975,W=0.002970),Translation=(X=9.123874,Y=6.657188,Z=-0.055403))
+   RetargetBasePose(56)=(Rotation=(X=-0.018134,Y=-0.000183,Z=-0.005920,W=-0.999818),Translation=(X=-0.000000,Y=-40.599438,Z=0.000000))
+   RetargetBasePose(57)=(Rotation=(X=0.540558,Y=-0.014366,Z=0.024951,W=-0.840814),Translation=(X=-0.000000,Y=-42.099026,Z=0.000000))
+   RetargetBasePose(58)=(Rotation=(X=0.227692,Y=0.032521,Z=-0.015366,W=-0.973069),Translation=(X=-0.000000,Y=-15.721560,Z=-0.000000))
+   RetargetBasePose(59)=(Rotation=(X=0.000000,Y=0.000000,Z=0.000000,W=-1.000000),Translation=(X=0.000000,Y=-10.000000,Z=0.000000))
+   RetargetBasePose(60)=(Rotation=(X=-0.000018,Y=0.006333,Z=0.999975,W=-0.003057),Translation=(X=-9.125032,Y=6.655602,Z=-0.055353))
+   RetargetBasePose(61)=(Rotation=(X=-0.018147,Y=0.000182,Z=0.005920,W=-0.999818),Translation=(X=0.000000,Y=-40.599438,Z=0.000000))
+   RetargetBasePose(62)=(Rotation=(X=0.540563,Y=0.014366,Z=-0.024952,W=-0.840811),Translation=(X=-0.000000,Y=-42.099026,Z=-0.000000))
+   RetargetBasePose(63)=(Rotation=(X=0.227709,Y=-0.032120,Z=0.015258,W=-0.973080),Translation=(X=0.000000,Y=-15.721559,Z=0.000000))
+   RetargetBasePose(64)=(Rotation=(X=-0.000000,Y=0.000000,Z=-0.000000,W=-1.000000),Translation=(X=0.000000,Y=-10.000000,Z=0.000000))
+   SamplingInfo=(BuiltData=(WholeMeshBuiltData=(())))
+End Object

@@ -1,0 +1,67 @@
+Begin Object Class=/Script/Engine.Material Name="M_Walls_01"
+   Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="M_Walls_01EditorOnlyData"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_6"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="M_Walls_01EditorOnlyData"
+      BaseColor=(Expression="/Script/Engine.MaterialExpressionTextureSample'M_Walls_01:MaterialExpressionTextureSample_5'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Metallic=(Expression="/Script/Engine.MaterialExpressionConstant'M_Walls_01:MaterialExpressionConstant_2'")
+      Specular=(Expression="/Script/Engine.MaterialExpressionConstant'M_Walls_01:MaterialExpressionConstant_5'")
+      Roughness=(Expression="/Script/Engine.MaterialExpressionConstant'M_Walls_01:MaterialExpressionConstant_6'")
+      Normal=(Expression="/Script/Engine.MaterialExpressionTextureSample'M_Walls_01:MaterialExpressionTextureSample_6'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      ExpressionCollection=(Expressions=("/Script/Engine.MaterialExpressionTextureSample'M_Walls_01:MaterialExpressionTextureSample_5'","/Script/Engine.MaterialExpressionConstant'M_Walls_01:MaterialExpressionConstant_2'","/Script/Engine.MaterialExpressionConstant'M_Walls_01:MaterialExpressionConstant_5'","/Script/Engine.MaterialExpressionConstant'M_Walls_01:MaterialExpressionConstant_6'","/Script/Engine.MaterialExpressionTextureSample'M_Walls_01:MaterialExpressionTextureSample_6'"))
+   End Object
+   Begin Object Name="MaterialExpressionConstant_2"
+      MaterialExpressionEditorX=-208
+      MaterialExpressionEditorY=160
+      MaterialExpressionGuid=DDFE24DB47A0E0AFA0B09593A2150A48
+      Material="/Script/Engine.Material'M_Walls_01'"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_5"
+      R=0.200000
+      MaterialExpressionEditorX=-192
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=DDFE24DB47A0E0AFA0B09593A2150A48
+      Material="/Script/Engine.Material'M_Walls_01'"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_6"
+      R=0.800000
+      MaterialExpressionEditorX=-192
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=DDFE24DB47A0E0AFA0B09593A2150A48
+      Material="/Script/Engine.Material'M_Walls_01'"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_5"
+      MaterialExpressionEditorX=-240
+      MaterialExpressionEditorY=-80
+      MaterialExpressionGuid=A5A8B0124D1772D69022E0AB72C4D17F
+      Material="/Script/Engine.Material'M_Walls_01'"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_6"
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-256
+      MaterialExpressionEditorY=448
+      MaterialExpressionGuid=A5A8B0124D1772D69022E0AB72C4D17F
+      Material="/Script/Engine.Material'M_Walls_01'"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   bUsedWithStaticLighting=True
+   EditorX=160
+   EditorY=16
+   bCanMaskedBeAssumedOpaque=True
+   StateId=D40A5DB2A02E4A5D292F37928D95B120
+   EditorOnlyData="/Script/Engine.MaterialEditorOnlyData'M_Walls_01EditorOnlyData'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_0'"
+   LightingGuid=CE39E42C4C8B9C2242BB21AAA53B1AFE
+End Object

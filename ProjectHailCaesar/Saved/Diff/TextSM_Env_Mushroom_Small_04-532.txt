@@ -1,0 +1,53 @@
+Begin Object Class=/Script/Engine.StaticMesh Name="SM_Env_Mushroom_Small_04"
+   Begin Object Class=/Script/Engine.StaticMeshDescriptionBulkData Name="HiResMeshDescription" Archetype="/Script/Engine.StaticMeshDescriptionBulkData'/Script/Engine.Default__StaticMesh:HiResMeshDescription'"
+      Begin Object Class=/Script/StaticMeshDescription.StaticMeshDescription Name="MeshDescription" Archetype="/Script/StaticMeshDescription.StaticMeshDescription'/Script/Engine.Default__StaticMesh:HiResMeshDescription.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.AssetImportData Name="AssetImportData"
+   End Object
+   Begin Object Class=/Script/Engine.BodySetup Name="BodySetup_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.FbxStaticMeshImportData Name="FbxStaticMeshImportData_0"
+   End Object
+   Begin Object Class=/Script/NavigationSystem.NavCollision Name="NavCollision_2"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshDescriptionBulkData Name="StaticMeshDescriptionBulkData_0"
+      Begin Object Class=/Script/StaticMeshDescription.StaticMeshDescription Name="MeshDescription" Archetype="/Script/StaticMeshDescription.StaticMeshDescription'/Script/Engine.Default__StaticMeshDescriptionBulkData:MeshDescription'"
+      End Object
+   End Object
+   Begin Object Name="HiResMeshDescription"
+      Begin Object Name="MeshDescription"
+      End Object
+   End Object
+   Begin Object Name="AssetImportData"
+   End Object
+   Begin Object Name="BodySetup_0"
+      AggGeom=(ConvexElems=((VertexData=((X=-17.481232,Y=-24.757572,Z=-39.523220),(X=-10.799524,Y=5.166264,Z=-12.786926),(X=-10.799524,Y=5.166264,Z=-13.080042),(X=-9.927689,Y=-34.636444,Z=-36.613007),(X=-23.584085,Y=-9.073235,Z=-12.786926),(X=-10.507965,Y=-1.518293,Z=-27.895445),(X=-13.705172,Y=-38.413914,Z=-33.998520),(X=-21.258715,Y=-20.692875,Z=-35.451012),(X=-10.507965,Y=1.097214,Z=-12.786926),(X=-9.054430,Y=-11.105584,Z=-33.129646),(X=-22.130550,Y=-12.271900,Z=-26.445572),(X=-19.515041,Y=-10.235199,Z=-12.786926),(X=-11.089663,Y=-16.628178,Z=-38.065495),(X=-19.515041,Y=-27.956238,Z=-38.065495),(X=-10.507965,Y=-34.636444,Z=-39.230103),(X=-13.123473,Y=3.999949,Z=-13.661037)),IndexData=(10,5,7,13,6,4,13,4,7,8,6,3,5,15,2,8,9,1,10,7,4,12,0,7,15,1,2,15,4,1,12,14,0,13,7,0,3,6,14,8,3,9,9,12,5,5,12,7,9,5,2,9,2,1,9,14,12,9,3,14,11,8,4,8,1,4,11,6,8,11,4,6,13,14,6,13,0,14,10,15,5,10,4,15),ElemBox=(Min=(X=-23.584085,Y=-38.413914,Z=-39.523220),Max=(X=-9.054430,Y=5.166264,Z=-12.786926),IsValid=True)),(VertexData=((X=21.168297,Y=8.656052,Z=36.614307),(X=10.125101,Y=6.621627,Z=10.752640),(X=10.125101,Y=8.365042,Z=10.752640),(X=-7.308881,Y=2.558067,Z=16.567381),(X=20.293728,Y=-4.706604,Z=20.925533),(X=16.806215,Y=19.698565,Z=22.089062),(X=10.415428,Y=8.656052,Z=39.521679),(X=-2.369730,Y=-7.034686,Z=11.045698),(X=27.562668,Y=8.365042,Z=21.798906),(X=11.286411,Y=0.523641,Z=37.197525),(X=-2.950385,Y=10.399467,Z=10.755542),(X=6.931499,Y=12.722258,Z=36.324150),(X=15.935234,Y=6.333262,Z=10.752640),(X=14.773924,Y=-3.836220,Z=31.965998),(X=1.117783,Y=14.177309,Z=22.089062),(X=18.261436,Y=13.595288,Z=37.197525)),IndexData=(15,8,5,14,5,10,7,13,9,15,0,8,9,0,6,13,4,0,15,6,0,11,3,6,4,8,0,7,4,13,7,9,3,9,13,0,11,6,15,9,6,3,1,7,10,10,7,3,2,10,5,2,1,10,12,1,2,12,2,5,12,5,8,12,8,4,12,7,1,12,4,7,14,11,5,11,15,5,14,3,11,14,10,3),ElemBox=(Min=(X=-7.308881,Y=-7.034686,Z=10.752640),Max=(X=27.562668,Y=19.698565,Z=39.521679),IsValid=True)),(VertexData=((X=5.766776,Y=-26.213730,Z=-36.614342),(X=1.408964,Y=16.498791,Z=-12.786926),(X=-0.335049,Y=16.498791,Z=-12.786926),(X=2.862307,Y=8.362114,Z=-32.547169),(X=15.937964,Y=4.872808,Z=-12.786926),(X=-0.335049,Y=-3.258834,Z=-12.786926),(X=17.100639,Y=-30.861101,Z=-33.125488),(X=14.193952,Y=-14.295713,Z=-38.649277),(X=-5.567087,Y=12.722486,Z=-18.021553),(X=4.313432,Y=-6.743104,Z=-40.103191),(X=10.124588,Y=-33.771374,Z=-35.744156),(X=16.228634,Y=3.422708,Z=-18.602577),(X=13.321945,Y=-31.153135,Z=-40.395054),(X=1.699632,Y=17.082859,Z=-18.602577),(X=3.443645,Y=-21.561323,Z=-36.614342),(X=15.065958,Y=0.517470,Z=-12.786926)),IndexData=(8,14,5,9,7,12,0,10,5,11,13,4,12,7,6,14,0,5,1,5,4,9,12,14,6,11,4,11,3,13,8,13,3,2,13,8,12,10,0,12,6,10,2,1,13,1,4,13,2,5,1,2,8,5,6,5,10,15,6,4,7,11,6,7,3,11,9,14,8,12,0,14,9,3,7,9,8,3,15,5,6,15,4,5),ElemBox=(Min=(X=-5.567087,Y=-33.771374,Z=-40.395054),Max=(X=17.100639,Y=17.082859,Z=-12.786926),IsValid=True)),(VertexData=((X=23.205196,Y=-23.887793,Z=-38.067711),(X=36.281025,Y=21.733814,Z=-12.786926),(X=36.281025,Y=21.733814,Z=-13.079444),(X=18.844311,Y=-25.046362,Z=-32.836044),(X=25.529863,Y=-4.994967,Z=-38.360229),(X=33.954651,Y=6.042673,Z=-30.221504),(X=33.084179,Y=20.858879,Z=-13.371962),(X=25.820021,Y=-21.849483,Z=-36.322960),(X=32.792316,Y=16.791874,Z=-24.702496),(X=34.536671,Y=17.080315,Z=-12.786926),(X=29.305315,Y=-1.226017,Z=-37.777782),(X=21.170685,Y=-27.377918,Z=-34.580795),(X=22.042862,Y=-14.585601,Z=-38.937500),(X=35.408848,Y=17.373562,Z=-24.409979),(X=24.949551,Y=-21.849483,Z=-39.232605),(X=32.502159,Y=17.368755,Z=-12.786926)),IndexData=(8,2,13,3,12,0,4,10,14,6,1,2,14,11,0,14,0,12,5,10,13,6,8,4,14,7,11,9,3,11,5,1,7,8,13,10,14,5,7,14,10,5,2,5,13,2,1,5,6,15,1,9,15,3,6,2,8,4,8,10,6,4,12,4,14,12,9,11,7,3,0,11,9,1,15,9,7,1,6,3,15,6,12,3),ElemBox=(Min=(X=18.844311,Y=-27.377918,Z=-39.232605),Max=(X=36.281025,Y=21.733814,Z=-12.786926),IsValid=True)),(VertexData=((X=-25.909092,Y=-13.135913,Z=3.485236),(X=1.114283,Y=16.213867,Z=-12.494293),(X=4.021568,Y=11.850080,Z=7.842451),(X=14.774348,Y=0.520655,Z=-12.786924),(X=6.057131,Y=-5.289307,Z=10.752638),(X=-22.422207,Y=-10.521430,Z=-12.784620),(X=-25.324852,Y=-0.641338,Z=5.517528),(X=14.774348,Y=9.819751,Z=10.752638),(X=-17.187237,Y=9.529253,Z=-10.750025),(X=-21.258366,Y=-16.044052,Z=-1.450331),(X=-2.956843,Y=10.691245,Z=10.752638),(X=-23.001808,Y=-7.322794,Z=10.167374),(X=-31.431541,Y=-7.322794,Z=-2.611640),(X=1.693885,Y=-9.068940,Z=7.842451),(X=15.938190,Y=5.168624,Z=-12.494293),(X=15.353951,Y=4.878126,Z=10.752638)),IndexData=(14,1,7,2,7,1,10,7,2,3,1,14,13,11,0,15,7,10,11,12,0,10,2,1,4,10,11,15,3,14,10,6,11,6,12,11,8,12,6,9,5,3,10,8,6,10,1,8,15,14,7,5,12,8,5,1,3,5,8,1,9,12,5,9,0,12,4,3,15,4,15,10,13,4,11,13,0,9,13,3,4,13,9,3),ElemBox=(Min=(X=-31.431541,Y=-16.044052,Z=-12.786924),Max=(X=15.938190,Y=16.213867,Z=10.752638),IsValid=True)),(VertexData=((X=27.854645,Y=21.156914,Z=1.740113),(X=42.672894,Y=19.120213,Z=-1.163588),(X=42.672894,Y=18.539616,Z=-1.163588),(X=32.503071,Y=17.668718,Z=-12.786924),(X=35.990185,Y=30.742926,Z=-4.357445),(X=35.117210,Y=24.058369,Z=9.008966),(X=33.957497,Y=15.633553,Z=2.902874),(X=26.983265,Y=28.127163,Z=-2.904528),(X=35.990185,Y=22.027811,Z=-12.786924),(X=26.400221,Y=18.249317,Z=-3.194685),(X=39.477299,Y=27.254730,Z=4.648081),(X=32.503071,Y=28.417461,Z=5.810842),(X=39.767231,Y=15.052956,Z=-3.774998),(X=39.185780,Y=19.994183,Z=6.683445),(X=39.767231,Y=27.254730,Z=-3.774998),(X=30.470381,Y=15.343254,Z=-3.484841)),IndexData=(10,4,11,8,12,3,7,0,11,7,9,0,7,11,4,11,0,5,8,3,7,10,11,5,13,12,2,6,5,0,7,3,9,8,2,12,6,13,5,6,0,9,14,10,1,8,1,2,14,1,8,8,7,4,13,10,5,15,9,3,14,4,10,14,8,4,13,1,10,13,2,1,6,12,13,15,6,9,15,12,6,15,3,12),ElemBox=(Min=(X=26.400221,Y=15.052956,Z=-12.786924),Max=(X=42.672894,Y=30.742926,Z=9.008966),IsValid=True))))
+      DefaultInstance=(ObjectType=ECC_WorldStatic,CollisionProfileName="BlockAll")
+   End Object
+   Begin Object Name="FbxStaticMeshImportData_0"
+      ImportUniformScale=100.000000
+   End Object
+   Begin Object Name="NavCollision_2"
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Name="StaticMeshDescriptionBulkData_0"
+      Begin Object Name="MeshDescription"
+      End Object
+   End Object
+   SourceModels(0)=(StaticMeshDescriptionBulkData="/Script/Engine.StaticMeshDescriptionBulkData'StaticMeshDescriptionBulkData_0'",BuildSettings=(bRecomputeNormals=False,bUseBackwardsCompatibleF16TruncUVs=True,bGenerateLightmapUVs=False),ScreenSize=(Default=1.000000))
+   SectionInfoMap=(Map=((0, ())))
+   OriginalSectionInfoMap=(Map=((0, ())))
+   ImportVersion=1
+   StaticMaterials(0)=(MaterialSlotName="lambert2",ImportedMaterialSlotName="lambert2",UVChannelData=(bInitialized=True,LocalUVDensities[1]=174.187561))
+   LightmapUVDensity=174.187561
+   LightMapResolution=256
+   LightMapCoordinateIndex=1
+   AssetImportData="/Script/UnrealEd.FbxStaticMeshImportData'FbxStaticMeshImportData_0'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_0'"
+   bCustomizedCollision=True
+   ExtendedBounds=(Origin=(X=5.637169,Y=-4.295692,Z=0.000000),BoxExtent=(X=36.923409,Y=34.852005,Z=40.249748),SphereRadius=53.819054)
+End Object

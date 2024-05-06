@@ -1,0 +1,55 @@
+Begin Object Class=/Script/Engine.Material Name="M_FX_LightRay"
+   Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="M_FX_LightRayEditorOnlyData"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="M_FX_LightRayEditorOnlyData"
+      EmissiveColor=(Expression="/Script/Engine.MaterialExpressionMultiply'M_FX_LightRay:MaterialExpressionMultiply_0'")
+      Opacity=(Expression="/Script/Engine.MaterialExpressionMultiply'M_FX_LightRay:MaterialExpressionMultiply_1'")
+      ExpressionCollection=(Expressions=("/Script/Engine.MaterialExpressionConstant3Vector'M_FX_LightRay:MaterialExpressionConstant3Vector_1'","/Script/Engine.MaterialExpressionMultiply'M_FX_LightRay:MaterialExpressionMultiply_0'","/Script/Engine.MaterialExpressionTextureSample'M_FX_LightRay:MaterialExpressionTextureSample_1'","/Script/Engine.MaterialExpressionMultiply'M_FX_LightRay:MaterialExpressionMultiply_1'"))
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_1"
+      Constant=(R=1.000000,G=0.522019,B=0.086357,A=1.000000)
+      MaterialExpressionEditorX=-432
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=1A32304940856B8B1C750DAA5A4BD7B7
+      Material="/Script/Engine.Material'M_FX_LightRay'"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression="/Script/Engine.MaterialExpressionConstant3Vector'M_FX_LightRay:MaterialExpressionConstant3Vector_1'")
+      MaterialExpressionEditorX=-239
+      MaterialExpressionEditorY=263
+      MaterialExpressionGuid=A21AD75341097EB7C1A18A98DF833D84
+      Material="/Script/Engine.Material'M_FX_LightRay'"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression="/Script/Engine.MaterialExpressionTextureSample'M_FX_LightRay:MaterialExpressionTextureSample_1'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      ConstB=0.300000
+      MaterialExpressionEditorX=-209
+      MaterialExpressionEditorY=85
+      MaterialExpressionGuid=1A95891A40FC8BBF9892D98AD3478117
+      Material="/Script/Engine.Material'M_FX_LightRay'"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      MaterialExpressionEditorX=-464
+      MaterialExpressionEditorY=-32
+      MaterialExpressionGuid=C30C72244E18EA7DF7880383DFBCC79A
+      Material="/Script/Engine.Material'M_FX_LightRay'"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BlendMode=BLEND_Translucent
+   bCanMaskedBeAssumedOpaque=True
+   StateId=339E433DA609D7FE3BE92DBF4F7518E6
+   EditorOnlyData="/Script/Engine.MaterialEditorOnlyData'M_FX_LightRayEditorOnlyData'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_0'"
+   LightingGuid=878B5CAC4B90E71F83DD1BBF4A99543D
+End Object

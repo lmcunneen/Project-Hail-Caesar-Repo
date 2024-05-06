@@ -1,0 +1,15 @@
+Begin Object Class=/Script/Engine.AnimMontage Name="sword_and_shield_death_Montage"
+   Begin Object Class=/Script/Engine.AnimDataModel Name="AnimDataModel"
+   End Object
+   Begin Object Name="AnimDataModel"
+      NumberOfFrames=138000
+      NumberOfKeys=138001
+   End Object
+   CompositeSections(0)=(SectionName="Default",LinkedMontage="/Script/Engine.AnimMontage'sword_and_shield_death_Montage'",SegmentIndex=0,SegmentLength=2.300000,LinkedSequence="/Script/Engine.AnimSequence'/Game/ProjectCaesar/Characters/Mixamo/Animations/sword_and_shield_death.sword_and_shield_death'")
+   SlotAnimTracks(0)=(AnimTrack=(AnimSegments=((AnimReference="/Script/Engine.AnimSequence'/Game/ProjectCaesar/Characters/Mixamo/Animations/sword_and_shield_death.sword_and_shield_death'",CachedPlayLength=2.300000,AnimEndTime=2.300000))))
+   CommonTargetFrameRate=(Numerator=30)
+   SequenceLength=2.300000
+   AnimNotifyTracks(0)=(TrackName="1")
+   DataModelInterface=AnimDataModel'sword_and_shield_death_Montage:AnimDataModel'
+   Skeleton="/Script/Engine.Skeleton'/Game/ProjectCaesar/Characters/Mixamo/Y_Bot_Skeleton.Y_Bot_Skeleton'"
+End Object

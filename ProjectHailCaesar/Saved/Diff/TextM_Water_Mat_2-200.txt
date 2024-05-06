@@ -1,0 +1,38 @@
+Begin Object Class=/Script/Engine.Material Name="M_Water_Mat_2"
+   Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="M_Water_Mat_2EditorOnlyData"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="M_Water_Mat_2EditorOnlyData"
+      BaseColor=(Expression="/Script/Engine.MaterialExpressionConstant3Vector'M_Water_Mat_2:MaterialExpressionConstant3Vector_0'")
+      Opacity=(Expression="/Script/Engine.MaterialExpressionConstant'M_Water_Mat_2:MaterialExpressionConstant_0'")
+      ExpressionCollection=(Expressions=("/Script/Engine.MaterialExpressionConstant3Vector'M_Water_Mat_2:MaterialExpressionConstant3Vector_0'","/Script/Engine.MaterialExpressionConstant'M_Water_Mat_2:MaterialExpressionConstant_0'"))
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=0.500000
+      MaterialExpressionEditorX=-224
+      MaterialExpressionEditorY=192
+      MaterialExpressionGuid=79D611EB45DA76006235A2B57B6F345E
+      Material="/Script/Engine.Material'M_Water_Mat_2'"
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_0"
+      Constant=(R=0.195000,G=0.942454,B=1.000000,A=1.000000)
+      MaterialExpressionEditorX=-336
+      MaterialExpressionEditorY=32
+      MaterialExpressionGuid=1E8CF76D4085938E131357A14F4880DA
+      Material="/Script/Engine.Material'M_Water_Mat_2'"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BlendMode=BLEND_Translucent
+   bUsedWithMeshParticles=True
+   bCanMaskedBeAssumedOpaque=True
+   StateId=1BA47A0CAF714FE80F2B7795FA502534
+   EditorOnlyData="/Script/Engine.MaterialEditorOnlyData'M_Water_Mat_2EditorOnlyData'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_0'"
+   LightingGuid=C32E4FEB424FF8AB68CCB2B8482C07E5
+End Object

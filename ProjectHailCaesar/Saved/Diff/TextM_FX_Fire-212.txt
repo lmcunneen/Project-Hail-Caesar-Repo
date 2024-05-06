@@ -1,0 +1,47 @@
+Begin Object Class=/Script/Engine.Material Name="M_FX_Fire"
+   Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="M_FX_FireEditorOnlyData"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="M_FX_FireEditorOnlyData"
+      BaseColor=(Expression="/Script/Engine.MaterialExpressionConstant'M_FX_Fire:MaterialExpressionConstant_1'")
+      EmissiveColor=(Expression="/Script/Engine.MaterialExpressionMultiply'M_FX_Fire:MaterialExpressionMultiply_0'")
+      ExpressionCollection=(Expressions=("/Script/Engine.MaterialExpressionConstant'M_FX_Fire:MaterialExpressionConstant_1'","/Script/Engine.MaterialExpressionMultiply'M_FX_Fire:MaterialExpressionMultiply_0'","/Script/Engine.MaterialExpressionConstant3Vector'M_FX_Fire:MaterialExpressionConstant3Vector_1'"))
+   End Object
+   Begin Object Name="MaterialExpressionConstant_1"
+      R=255.000000
+      MaterialExpressionEditorX=-240
+      MaterialExpressionEditorY=64
+      MaterialExpressionGuid=6C003C3041EB0F7994A281ADB1BC9152
+      Material="/Script/Engine.Material'M_FX_Fire'"
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_1"
+      Constant=(R=1.000000,G=0.216024,B=0.000000,A=1.000000)
+      MaterialExpressionEditorX=-368
+      MaterialExpressionEditorY=176
+      MaterialExpressionGuid=C71BB1A645B5489C6F0B4C9721A4E3A1
+      Material="/Script/Engine.Material'M_FX_Fire'"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression="/Script/Engine.MaterialExpressionConstant3Vector'M_FX_Fire:MaterialExpressionConstant3Vector_1'")
+      ConstB=10.000000
+      MaterialExpressionEditorX=-192
+      MaterialExpressionEditorY=176
+      MaterialExpressionGuid=63E31BD14E750F293A3792B57B2D89AB
+      Material="/Script/Engine.Material'M_FX_Fire'"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   bUsedWithMeshParticles=True
+   bCanMaskedBeAssumedOpaque=True
+   StateId=5FFB19F6A6BFAF95911BF39C5AC09EB0
+   EditorOnlyData="/Script/Engine.MaterialEditorOnlyData'M_FX_FireEditorOnlyData'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_0'"
+   LightingGuid=D22721BE4842597C7DD990B9A1FD6F58
+End Object

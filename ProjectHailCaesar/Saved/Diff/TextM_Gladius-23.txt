@@ -1,0 +1,22 @@
+Begin Object Class=/Script/Engine.Material Name="M_Gladius"
+   Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="M_GladiusEditorOnlyData"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Name="M_GladiusEditorOnlyData"
+      BaseColor=(Expression="/Script/Engine.MaterialExpressionTextureSample'M_Gladius:MaterialExpressionTextureSample_0'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      ExpressionCollection=(Expressions=("/Script/Engine.MaterialExpressionTextureSample'M_Gladius:MaterialExpressionTextureSample_0'"))
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture="/Script/Engine.Texture2D'/Game/ProjectCaesar/Art/GladiusSword/textures/GladiusMaterial_BaseColor_sRGB.GladiusMaterial_BaseColor_sRGB'"
+      MaterialExpressionEditorX=-250
+      MaterialExpressionGuid=A9F374BA4D2990624023819B0B188657
+      Material="/Script/Engine.Material'M_Gladius'"
+   End Object
+   bUsedWithSkeletalMesh=True
+   bCanMaskedBeAssumedOpaque=True
+   StateId=4AE8232845C082EB1637EF8A05E204FB
+   ReferencedTextureGuids(0)=29F71A4B41A6E48F1219CD9FAF33EC72
+   EditorOnlyData="/Script/Engine.MaterialEditorOnlyData'M_GladiusEditorOnlyData'"
+   LightingGuid=10EAA2CB494EE408F48C2A9A597C3EC4
+End Object

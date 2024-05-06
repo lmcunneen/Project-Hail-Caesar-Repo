@@ -1,0 +1,32 @@
+Begin Object Class=/Script/Engine.Material Name="M_FX_Flat_Colour"
+   Begin Object Class=/Script/Engine.MaterialEditorOnlyData Name="M_FX_Flat_ColourEditorOnlyData"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionParticleColor Name="MaterialExpressionParticleColor_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="M_FX_Flat_ColourEditorOnlyData"
+      BaseColor=(Expression="/Script/Engine.MaterialExpressionParticleColor'M_FX_Flat_Colour:MaterialExpressionParticleColor_0'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      EmissiveColor=(Expression="/Script/Engine.MaterialExpressionParticleColor'M_FX_Flat_Colour:MaterialExpressionParticleColor_0'",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Opacity=(Expression="/Script/Engine.MaterialExpressionParticleColor'M_FX_Flat_Colour:MaterialExpressionParticleColor_0'",OutputIndex=4,Mask=1,MaskA=1)
+      ExpressionCollection=(Expressions=("/Script/Engine.MaterialExpressionParticleColor'M_FX_Flat_Colour:MaterialExpressionParticleColor_0'"))
+   End Object
+   Begin Object Name="MaterialExpressionParticleColor_0"
+      MaterialExpressionEditorX=-272
+      MaterialExpressionEditorY=16
+      MaterialExpressionGuid=106DE8A14CE1C3A916848EBF771AE21D
+      Material="/Script/Engine.Material'M_FX_Flat_Colour'"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BlendMode=BLEND_Translucent
+   ShadingModel=MSM_Unlit
+   ShadingModels=(ShadingModelField=1)
+   bUsedWithParticleSprites=True
+   bUsedWithMeshParticles=True
+   bCanMaskedBeAssumedOpaque=True
+   StateId=362BF039A9FF3D23E57B0F8301F90FA0
+   EditorOnlyData="/Script/Engine.MaterialEditorOnlyData'M_FX_Flat_ColourEditorOnlyData'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_0'"
+   LightingGuid=84BB9A444572EF8F8461FD8C66B86323
+End Object
